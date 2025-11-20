@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CECONTEC Chaparral - Inicio</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header>
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between">
+    <div class="logo"><a href="index.html"><img src="img/logo.png" alt="CECONTEC Chaparral logo"></a></div>
+    <nav class="nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" class="active">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="programas.html">Programas</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" aria-hidden="true">☰</div>
+  </div>
+</header>
+
+<section class="hero" role="region" aria-label="Imagen principal">
+  <div class="container">
+    <h1>Instituto de Formación Técnica CECONTEC</h1>
+    <h1>Chaparral</h1>
+    <p style="margin-top:16px"><a href="programas.html" class="btn">Ver programas</a></p>
+  </div>
+</section>
+
+<main class="container" role="main">
+  <section class="section-title"><h2>Programas destacados</h2></section>
+  <section class="cards" aria-label="Programas">
+    <article class="card">
+      <h3>Sistemas y Comunicaciones</h3>
+      <p>Formación técnica orientada al desarrollo de habilidades en hardware, redes, soporte y desarrollo web.</p>
+      <p><a class="btn" href="programas.html">Más información</a></p>
+    </article>
+    <article class="card">
+      <h3>Auxiliar Administrativo</h3>
+      <p>Competencias en gestión, atención al cliente y procesos administrativos.</p>
+      <p><a class="btn" href="programas.html">Más información</a></p>
+    </article>
+    <article class="card">
+      <h3>Contabilidad y Finanzas</h3>
+      <p>Procesos contables básicos y manejo de herramientas financieras.</p>
+      <p><a class="btn" href="programas.html">Más información</a></p>
+    </article>
+  </section>
+
+  <section class="section-title"><h2>Últimas noticias</h2></section>
+  <section class="news-grid" aria-label="Noticias recientes">
+    <article class="card">
+      <img src="img/noticias/new3.jpg" alt="Noticia 1" style="width:100%;height:160px;object-fit:cover;border-radius:6px">
+      <h3>Inicia ciclo 2025 - Matrículas abiertas</h3>
+      <p class="meta">Publicado: 10 Nov 2025</p>
+      <p>El instituto abre matrícula para los programas técnicos. Informes en la sede.</p>
+      <p><a href="noticias.html" class="btn">Leer más</a></p>
+    </article>
+    <article class="card">
+      <img src="img/noticias/new2.jpg" alt="Noticia 2" style="width:100%;height:160px;object-fit:cover;border-radius:6px">
+      <h3>Feria de Emprendimiento</h3>
+      <p class="meta">Publicado: 02 Oct 2025</p>
+      <p>Estudiantes presentan proyectos productivos en la feria local.</p>
+      <p><a href="noticias.html" class="btn">Leer más</a></p>
+    </article>
+  </section>
+
+  <section class="section-title"><h2>Galería</h2></section>
+  <section class="gallery-grid" aria-label="Galería de imágenes">
+    <img class="gallery-thumb" data-src="img/galeria/pic1.jpg" src="img/galeria/pic1.jpg" alt="Foto galería 1">
+    <img class="gallery-thumb" data-src="img/galeria/pic2.jpg" src="img/galeria/pic2.jpg" alt="Foto galería 2">
+    <img class="gallery-thumb" data-src="img/noticias/new1.jpg" src="img/noticias/new1.jpg" alt="Foto galería 3">
+  </section>
+
+  <section style="padding:26px 0">
+    <a href="contacto.html" class="btn">Contáctanos</a>
+  </section>
+</main>
+
+<!-- Gallery modal -->
+<div id="galleryModal" style="display:none;position:fixed;inset:0;background:rgba(1,6,10,0.75);align-items:center;justify-content:center;padding:24px" aria-hidden="true">
+  <div style="max-width:900px;width:100%;position:relative">
+    <button class="close" style="position:absolute;right:8px;top:8px;background:#fff;border-radius:6px;padding:6px 10px;cursor:pointer">Cerrar</button>
+    <img src="" alt="Imagen ampliada" style="width:100%;border-radius:8px;display:block">
+  </div>
+</div>
+
+
+<footer>
+  <div class="container">
+    <p><strong>Instituto de Formación Técnica CECONTEC - Chaparral</strong></p>
+    <p class="meta">Dirección: Calle Principal, Chaparral - Tolima · Tel: (XXX) XXX-XXXX · Email: info@cecontec.edu.co</p>
+    <p style="margin-top:12px">© 2025 CECONTEC Chaparral · Todos los derechos reservados</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

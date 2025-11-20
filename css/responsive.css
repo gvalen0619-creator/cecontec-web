@@ -1,0 +1,6 @@
+
+@media(max-width:600px){
+  .hero{padding:50px 0}
+  .hero p{font-size:15px}
+  .card{padding:12px}
+}
