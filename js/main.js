@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function(){
         alert('Por favor completa todos los campos.');
         return;
       }
-      alert('Formulario preparado para enviar (sin backend).');
+      alert('Formulario preparado para enviar');
       form.reset();
     });
   }
